@@ -1,0 +1,10 @@
+brave-bin
+lightdm-webkit-theme-aether
+picom-jonaburg-git
+shell-color-scripts
+slack-desktop
+snapd
+ulauncher
+volnoti
+yay
+zoom
