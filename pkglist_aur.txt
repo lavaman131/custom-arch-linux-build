@@ -1,12 +1,10 @@
 brave-bin
-ibus-uniemoji
 lightdm-webkit-theme-aether
 picom-jonaburg-git
 shell-color-scripts
 slack-desktop
 snapd
 stacer-bin
-ulauncher
 volnoti
 yay
 zoom
