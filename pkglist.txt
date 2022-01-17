@@ -42,6 +42,7 @@ neofetch
 netctl
 networkmanager
 nitrogen
+noto-fonts-emoji
 nvidia
 nvidia-lts
 nvidia-settings

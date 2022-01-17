@@ -67,6 +67,7 @@ keys = [
     Key([mod], "f", lazy.spawn("thunar")),
     Key([mod], "c", lazy.spawn("code")),
     Key([mod], "s", lazy.spawn("spotify")),
+    Key([mod], "e", lazy.spawn("ibus emoji")),
     
     # A list of available commands that can be bound to keys can be found
     # at https://docs.qtile.org/en/latest/manual/config/lazy.html
@@ -76,6 +77,10 @@ keys = [
     Key([mod], "j", lazy.layout.down(), desc="Move focus down"),
     Key([mod], "k", lazy.layout.up(), desc="Move focus up"),
     Key([mod], "space", lazy.next_layout(), desc="Move window focus to other window"),
+    Key([mod], "Down", lazy.layout.shuffle_down()),
+    Key([mod], "Up", lazy.layout.shuffle_up()),
+    Key([mod], "Left", lazy.layout.shuffle_left()),
+    Key([mod], "Right", lazy.layout.shuffle_right()),
     
     Key([mod], "t", lazy.window.toggle_floating(), desc='Toggle floating'),
     
@@ -97,7 +102,6 @@ keys = [
     Key([mod], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
-    Key([mod, "shift"], "d", lazy.spawn("dmenu_run -i -nb '#191919' -nf '#fea63c' -sb '#fea63c' -sf '#191919' -fn 'NotoMonoRegular:bold:pixelsize=14'")),
     
     # INCREASE/DECREASE/MUTE VOLUME
     Key([], "XF86AudioMute", lazy.function(muteVol)),
