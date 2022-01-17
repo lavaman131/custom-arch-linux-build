@@ -1,10 +1,13 @@
 brave-bin
 lightdm-webkit-theme-aether
+marktext
 picom-jonaburg-git
+pycharm-community-eap
 shell-color-scripts
 slack-desktop
-snapd
+spotify
 stacer-bin
+visual-studio-code-bin
 volnoti
 yay
 zoom

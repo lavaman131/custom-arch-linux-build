@@ -47,7 +47,7 @@ noto-fonts-emoji
 nvidia
 nvidia-lts
 nvidia-settings
-okular
+obs-studio
 openssh
 os-prober
 patch
