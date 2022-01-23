@@ -1,6 +1,5 @@
 brave-bin
 lightdm-webkit-theme-aether
-marktext
 picom-jonaburg-git
 pycharm-community-eap
 shell-color-scripts

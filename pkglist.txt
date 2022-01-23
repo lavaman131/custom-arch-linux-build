@@ -68,6 +68,7 @@ surfraw
 system-config-printer
 texinfo
 thunar
+tree
 unzip
 vim
 vlc
